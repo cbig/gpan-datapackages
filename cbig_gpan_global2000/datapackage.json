@@ -1,0 +1,114 @@
+{
+  "name": "cbig_gpan_global2000",
+  "datapackage_version": "1.0-alpha",
+  "title": "Zonation results data for global analysis for year 2000.",
+  "description": "Datapackage (1 out of 4) for the publication 'Global protected area expansion is compromised by projected land-use and parochialism'. NEEDS TO BE EXTENDED.",
+  "homepage": "https://avaa.tdata.fi/web/cbig/gpan",
+  "version": "1.0",
+  "keywords": [
+    "biology",
+    "ecology",
+    "biodiversity",
+    "spatial conservation prioritization",
+    "Zonation"
+  ],
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "name": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "version": "4.0",
+      "id": "cc-by"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Conservation Biology Informatics Group",
+      "web": "http://cbig.it.helsinki.fi/"
+    }
+  ],
+  "contributors": [],
+  "maintainers": [
+    {
+      "name": "Tuuli Toivonen",
+      "email": "tuuli.toivonen@helsinki.fi",
+      "web": "https://tuhat.halvi.helsinki.fi/portal/en/persons/tuuli-toivonen(d099b4f4-c6ba-4ba7-871b-1f5366837004).html"
+    },
+    {
+      "name": "Joona Lehtomäki",
+      "email": "joona.lehtomaki@helsinki.fi",
+      "web": "https://tuhat.halvi.helsinki.fi/portal/en/persons/joona-lehtomaki(7f6888ed-acb0-4c6a-aab5-bc54f26d0e61).html"
+    }
+  ],
+  "publishers": [
+    {}
+  ],
+  "resources": [
+    {
+      "_comment": "Is there a schema analogue for rasters?",
+      "path": "data/cbig_gpan_national2000_curves.tif"
+    },
+    {
+      "_comment": "IN 1.0-alpha DATA IS NOT FORMATTED PROPERLY",
+      "path": "data/cbig_gpan_national2000_curves.csv",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Prop_landscape_lost",
+            "type": "Proportion of landscape lost",
+            "type": "number",
+            "description": "The proportion of the landscape removed."
+
+          },
+          {
+            "name": "cost_needed_for_top_fraction",
+            "type": "Cost needed for top fraction",
+            "type": "number",
+            "description": "The cost of remaining landscape."
+          },
+          {
+            "name": "min_prop_rem",
+            "type": "Minimum proportion remaining",
+            "type": "number",
+            "description": "The minimum proportion of species distribution that is remaining in the landscape, thus the situation of the worst-off species."
+          },
+          {
+            "name": "ave_prop_rem",
+            "type": "Average proportion remaining",
+            "type": "number",
+            "description": "The average proportion over all species."
+          },
+          {
+            "name": "w_prop_rem",
+            "type": "Weighted average proportion remaining",
+            "type": "number",
+            "description": "The weighted average proportion of all species."
+          },
+          {
+            "name": "ext-1",
+            "type": "Average extinction risk 1",
+            "type": "number",
+            "description": "The average extinction risk of species as landscape is iteratively removed (as calculated from the species-area relation using parameter z."
+          },
+          {
+            "name": "ext-2",
+            "type": "Average extinction risk 2",
+            "type": "number",
+            "description": "The weighted extinction risk where species-area extinction risk has been weighted by the species weights."
+          },
+          {
+            "name": "Species/Group 1",
+            "type": "",
+            "type": "number",
+            "description": "The proportion of distribution remaining for species."
+          },
+          {
+          	"_comment": "This would continue for all species/groups"
+          }
+        ]
+      }
+    }
+  ]
+}
