@@ -44,8 +44,59 @@
   ],
   "resources": [
     {
-      "_comment": "Is there a schema analogue for rasters?",
-      "path": "data/cbig_gpan_national2000_curves.tif"
+      "_comment": "NOT CORRECT RASTER METADATA!",
+      "path": "data/cbig_gpan_national2000.tif",
+      "raster_metadata": {
+        "driver": "GTiff/GeoTIFF",
+        "files": [
+          "cbig_gpan_national2000.tif",
+          "cbig_gpan_national2000.tfw"
+        ],
+        "size": [
+          19200,
+          9600
+        ],
+        "crs": "epsg XXXX",
+        "origin": [
+          68000,
+          6666000
+        ],
+        "pixel_size": [
+          2.5,
+          -2.5
+        ],
+        "metadata": {
+          "TIFFTAG_RESOLUTIONUNIT": "2 (pixels/inch)",
+          "TIFFTAG_XRESOLUTION": 254,
+          "TIFFTAG_YRESOLUTION": 254
+        },
+        "image_structure_metadata": {
+          "COMPRESSION": "LZW",
+          "INTERLEAVE": "BAND"
+        },
+        "corner_coordinates": {
+          "uppper_left": [
+            68000.000,
+            6666000.000
+          ],
+          "lower_left": [
+            68000.000,
+            6642000.000
+          ],
+          "upper_right": [
+            116000.000,
+            6666000.000
+          ],
+          "lower_right": [
+            116000.000,
+            6642000.000
+          ],
+          "center": [
+            92000.000,
+            6654000.000
+          ]
+        }
+      }
     },
     {
       "_comment": "IN 1.0-alpha DATA IS NOT FORMATTED PROPERLY",
