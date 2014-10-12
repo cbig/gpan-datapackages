@@ -56,56 +56,76 @@
       "schema": {
         "fields": [
           {
-            "name": "Prop_landscape_lost",
-            "type": "Proportion of landscape lost",
+            "name": "prop_lost",
+            "title": "Proportion of landscape lost",
             "type": "number",
             "description": "The proportion of the landscape removed."
-
           },
           {
-            "name": "cost_needed_for_top_fraction",
-            "type": "Cost needed for top fraction",
+            "name": "prop_rem",
+            "title": "Proportion of landscape remaining",
             "type": "number",
-            "description": "The cost of remaining landscape."
-          },
-          {
-            "name": "min_prop_rem",
-            "type": "Minimum proportion remaining",
-            "type": "number",
-            "description": "The minimum proportion of species distribution that is remaining in the landscape, thus the situation of the worst-off species."
+            "description": "The proportion of landscape remaining (1-prop_lost)."
           },
           {
             "name": "ave_prop_rem",
-            "type": "Average proportion remaining",
+            "title": "Average proportion remaining",
             "type": "number",
             "description": "The average proportion over all species."
           },
           {
-            "name": "w_prop_rem",
-            "type": "Weighted average proportion remaining",
+            "name": "ave_prop_rem_amphibians",
+            "title": "Average proportion remaining for amphibians",
             "type": "number",
-            "description": "The weighted average proportion of all species."
+            "description": "The average proportion over amphibian species."
           },
           {
-            "name": "ext-1",
-            "type": "Average extinction risk 1",
+            "name": "ave_prop_rem_birds",
+            "title": "Average proportion remaining for birds",
             "type": "number",
-            "description": "The average extinction risk of species as landscape is iteratively removed (as calculated from the species-area relation using parameter z."
+            "description": "The average proportion over bird species."
           },
           {
-            "name": "ext-2",
-            "type": "Average extinction risk 2",
+            "name": "ave_prop_rem_mammals",
+            "title": "Average proportion remaining for mammals",
             "type": "number",
-            "description": "The weighted extinction risk where species-area extinction risk has been weighted by the species weights."
+            "description": "The average proportion over mammal species."
           },
           {
-            "name": "Species/Group 1",
-            "type": "",
+            "name": "ave_prop_rem_reptiles",
+            "title": "Average proportion remaining for reptiles",
             "type": "number",
-            "description": "The proportion of distribution remaining for species."
+            "description": "The average proportion over reptile species."
           },
           {
-          	"_comment": "This would continue for all species/groups"
+            "name": "ave_prop_rem_lc",
+            "title": "Average proportion remaining for LC species",
+            "type": "number",
+            "description": "The average proportion over all species with IUCN category LC."
+          },
+          {
+            "name": "ave_prop_rem_nt",
+            "title": "Average proportion remaining for NT species",
+            "type": "number",
+            "description": "The average proportion over all species with IUCN category NT."
+          },
+          {
+            "name": "ave_prop_rem_vu",
+            "title": "Average proportion remaining for VU species",
+            "type": "number",
+            "description": "The average proportion over all species with IUCN category VU."
+          },
+          {
+            "name": "ave_prop_rem_en",
+            "title": "Average proportion remaining for EN species",
+            "type": "number",
+            "description": "The average proportion over all species with IUCN category EN."
+          },
+          {
+            "name": "ave_prop_rem_cr",
+            "title": "Average proportion remaining for CR species",
+            "type": "number",
+            "description": "The average proportion over all species with IUCN category CR."
           }
         ]
       }
