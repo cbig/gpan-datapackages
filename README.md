@@ -7,4 +7,4 @@ This root folder contain 4 datapackages associated with publication "Global prot
 3. cbig_gpan_national2000
 4. cbig_gpan_national2040
 
-See individual datapackages for more detailed description of the content. See http://data.okfn.org/doc/data-package for a description of a datapackage structure.
+See individual datapackages for more detailed description of the content. See http://data.okfn.org/doc/data-package for a description of a datapackage structure.   
