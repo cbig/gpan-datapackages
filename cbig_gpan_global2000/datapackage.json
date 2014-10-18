@@ -100,7 +100,7 @@
     },
     {
       "_comment": "IN 1.0-alpha DATA IS NOT FORMATTED PROPERLY",
-      "path": "data/cbig_gpan_national2000_curves.csv",
+      "path": "data/cbig_gpan_global2000.csv",
       "dialect": {
         "delimiter": ";"
       },
