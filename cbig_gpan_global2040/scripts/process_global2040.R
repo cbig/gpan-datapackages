@@ -86,9 +86,17 @@ iucn_group_mean <- m_dat %>%
   spread(iucn_group, ave_pr) %>%
   select(pr_lost, LC, NT, VU, EN, CR)
 
+# Just the endangered species (VU, EN, CR)
+endangered_group_mean <- m_dat %>%
+  filter(iucn_group == "VU" | iucn_group == "EN" | iucn_group == "CR") %>%
+  group_by(pr_lost) %>%
+  summarise(endangered=mean(value)) %>%
+  ungroup()
+
 # Combine data
 mean_dat <- left_join(mean_dat, spp_group_mean, by="pr_lost")
 mean_dat <- left_join(mean_dat, iucn_group_mean, by="pr_lost")
+mean_dat <- left_join(mean_dat, endangered_group_mean, by="pr_lost")
 
 # Write data --------------------------------------------------------------
 
