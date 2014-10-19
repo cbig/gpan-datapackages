@@ -107,82 +107,82 @@
       "schema": {
         "fields": [
           {
-            "name": "prop_lost",
+            "name": "pr_lost",
             "title": "Proportion of landscape lost",
             "type": "number",
-            "description": "The proportion of the landscape removed."
+            "description": "The proportion of the landscape removed in percents ([0-100])."
           },
           {
-            "name": "prop_rem",
+            "name": "pr_rem",
             "title": "Proportion of landscape remaining",
             "type": "number",
-            "description": "The proportion of landscape remaining (1-prop_lost)."
+            "description": "The proportion of landscape remaining in percents ([0-100], 1-pr_lost)."
           },
           {
-            "name": "ave_prop_rem",
+            "name": "ave_pr_rem",
             "title": "Average proportion remaining",
             "type": "number",
-            "description": "The average proportion over all species."
+            "description": "The average proportion over all species in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_amphibians",
+            "name": "amphibians",
             "title": "Average proportion remaining for amphibians",
             "type": "number",
-            "description": "The average proportion over amphibian species."
+            "description": "The average proportion over amphibian species in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_birds",
+            "name": "birds",
             "title": "Average proportion remaining for birds",
             "type": "number",
-            "description": "The average proportion over bird species."
+            "description": "The average proportion over bird species in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_mammals",
+            "name": "mammals",
             "title": "Average proportion remaining for mammals",
             "type": "number",
-            "description": "The average proportion over mammal species."
+            "description": "The average proportion over mammal species in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_reptiles",
+            "name": "reptiles",
             "title": "Average proportion remaining for reptiles",
             "type": "number",
-            "description": "The average proportion over reptile species."
+            "description": "The average proportion over reptile species in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_lc",
+            "name": "LC",
             "title": "Average proportion remaining for LC species",
             "type": "number",
-            "description": "The average proportion over all species with IUCN category LC."
+            "description": "The average proportion over all species with IUCN category LC in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_nt",
+            "name": "NT",
             "title": "Average proportion remaining for NT species",
             "type": "number",
-            "description": "The average proportion over all species with IUCN category NT."
+            "description": "The average proportion over all species with IUCN category NT in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_vu",
+            "name": "VU",
             "title": "Average proportion remaining for VU species",
             "type": "number",
-            "description": "The average proportion over all species with IUCN category VU."
+            "description": "The average proportion over all species with IUCN category VU in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_en",
+            "name": "EN",
             "title": "Average proportion remaining for EN species",
             "type": "number",
-            "description": "The average proportion over all species with IUCN category EN."
+            "description": "The average proportion over all species with IUCN category EN in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_cr",
+            "name": "CR",
             "title": "Average proportion remaining for CR species",
             "type": "number",
-            "description": "The average proportion over all species with IUCN category CR."
+            "description": "The average proportion over all species with IUCN category CR in percents ([0-100])."
           },
           {
-            "name": "ave_prop_rem_endangered",
+            "name": "endangered",
             "title": "Average proportion remaining for all endangered species",
             "type": "number",
-            "description": "The average proportion remaining for all endangered species (IUCN categories EN, VU and CR)."
+            "description": "The average proportion remaining for all endangered species (IUCN categories EN, VU and CR)  in percents ([0-100])."
           }
         ]
       }
