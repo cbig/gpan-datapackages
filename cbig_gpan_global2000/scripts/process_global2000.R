@@ -38,6 +38,10 @@ m_dat <- tidyr::gather(feature_dat,  feat_name, value, -pr_lost)
 # Join the groups information based on the feature name
 m_dat <- dplyr::left_join(m_dat, features, by=c("feat_name"))
 
+# Multiply both pr_lost and value by 100 to get a percentage value
+m_dat$pr_lost <- m_dat$pr_lost * 100
+m_dat$value <- m_dat$value * 100
+
 # Filter the data ---------------------------------------------------------
 
 # 99 is alway ecoregions, IUCN categories do not apply: DROP ECOREGIONS
@@ -67,23 +71,23 @@ m_dat <- dplyr::left_join(m_dat, groups, by=c("group"))
 
 mean_dat <- m_dat %>%
   group_by(pr_lost) %>%
-  summarise(ave_pr=mean(value)) %>%
-  mutate(pr_rem=1-pr_lost) %>%
-  select(pr_lost, pr_rem, ave_pr)
+  summarise(ave_pr_rem=mean(value)) %>%
+  mutate(pr_rem=100-pr_lost) %>%
+  select(pr_lost, pr_rem, ave_pr_rem)
 
 spp_group_mean <- m_dat %>%
   group_by(pr_lost, spp_group) %>%
-  summarise(ave_pr=mean(value)) %>%
+  summarise(ave_pr_rem=mean(value)) %>%
   ungroup() %>%
-  spread(spp_group, ave_pr)
+  spread(spp_group, ave_pr_rem)
 
 # NOTE: DD, EN and EX are filtered out
 
 iucn_group_mean <- m_dat %>%
   group_by(pr_lost, iucn_group) %>%
-  summarise(ave_pr=mean(value)) %>%
+  summarise(ave_pr_rem=mean(value)) %>%
   ungroup() %>%
-  spread(iucn_group, ave_pr) %>%
+  spread(iucn_group, ave_pr_rem) %>%
   select(pr_lost, LC, NT, VU, EN, CR)
 
 # Just the endangered species (VU, EN, CR)
