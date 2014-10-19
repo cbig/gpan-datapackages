@@ -12,3 +12,4 @@
 + VU average proportion remaining
 + EN average proportion remaining
 + CR average proportion remaining
++ Endangered (VU, EN, CR) average proportion remaining
