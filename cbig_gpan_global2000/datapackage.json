@@ -177,6 +177,12 @@
             "title": "Average proportion remaining for CR species",
             "type": "number",
             "description": "The average proportion over all species with IUCN category CR."
+          },
+          {
+            "name": "ave_prop_rem_endangered",
+            "title": "Average proportion remaining for all endangered species",
+            "type": "number",
+            "description": "The average proportion remaining for all endangered species (IUCN categories EN, VU and CR)."
           }
         ]
       }
