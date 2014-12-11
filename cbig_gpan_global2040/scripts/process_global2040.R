@@ -7,7 +7,7 @@ library(tidyr)
 
 # Input and output names --------------------------------------------------
 
-in_file <- "../../gpan/data/cbig_gpan_global2040_curves_full.txt"
+in_file <- "../../gpan/data/CBIG_GPAN_Global2040_curves.txt"
 out_file <- "data/cbig_gpan_global2040.csv"
 groups_file <- "../../gpan/data//groups_iucn_spp_ecor.txt"
 
