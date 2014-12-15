@@ -11,7 +11,9 @@ Metadata authors:
 
 ## CITATION
 
-The data set is an output of spatial conservation prioritization carried out for global protected area expansion analyses published in Nature on 18th December 2014 with the title "Global protected area expansion is compromised by projected land-use and parochialism":
+The data set is an output of spatial conservation prioritization carried out for global protected
+area expansion analyses published in Nature on 18th December 2014 with the title "Global protected
+area expansion is compromised by projected land-use and parochialism":
 
 http://dx.doi.org/10.1038/nature14032
 
@@ -34,19 +36,33 @@ Pouzols, Federico Montesino
 
 ## LICENCE
 
-The data is licensed with Creative Commons Attribution 4.0 International (CC BY 4.0) lisence, see https://creativecommons.org/licenses/by/4.0/
+The data is licensed with Creative Commons Attribution 4.0 International (CC BY 4.0) lisence, see
+https://creativecommons.org/licenses/by/4.0/
 
 ******************************
 
 ## DESCRIPTION OF THE ANALYSES
 
-The analysis identifies the priorities for expanding the current protected area network to 17 % of the terrestrial land - and beyond. It compares the spatial patterns and the performance of the prioritizations carried out globally and nationally (using database of Global Administrative Areas [1]), limiting the species ranges with present and future (2040) land use [2].
+The analysis identifies the priorities for expanding the current protected area network to 17 % of
+the terrestrial land - and beyond. It compares the spatial patterns and the performance of the
+prioritizations carried out globally and nationally (using database of Global Administrative Areas
+[1]), limiting the species ranges with present and future (2040) land use [2].
 
-The analyses are based on the distributions of 24,757 terrestrial vertebrate species and 826 ecoregions provided by IUCN Red List [3] and WWF Terrestrial ecoregions [4]. The current protected area network was extracted from World Database on Protected Areas [5] by selecting those polygons that belonged to IUCN categories I to VI and had the status "designated". The analysis was carried out using Zonation software [6] developed in the Conservation Biology Informatics Group [7]. For full methodology and references, see the supplementary material of the article [8].
+The analyses are based on the distributions of 24,757 terrestrial vertebrate species and 826
+ecoregions provided by IUCN Red List [3] and WWF Terrestrial ecoregions [4]. The current protected
+area network was extracted from World Database on Protected Areas [5] by selecting those polygons
+that belonged to IUCN categories I to VI and had the status "designated". The analysis was carried
+out using Zonation software [6] developed in the Conservation Biology Informatics Group [7]. For
+full methodology and references, see the supplementary material of the article [8].
 
-The analyses were performed at several different resolutions: 20 km, 10 km, 5 km and 1.7 km at the equator.  Due to limitations in the original data, we distribute all information in 20 km resolution. Contact the authors for the result data in higher resolution. A summary of the main results and conclusions accompanied by interactive graphs and maps are available at http://avaa.tdata.fi/web/cbig/gpan.
+The analyses were performed at several different resolutions: 20 km, 10 km, 5 km and 1.7 km at the
+equator.  Due to limitations in the original data, we distribute all information in 20 km
+resolution. Contact the authors for the result data in higher resolution. A summary of the main
+results and conclusions accompanied by interactive graphs and maps are available at
+http://avaa.tdata.fi/web/cbig/gpan.
 
-We share the results of four different prioritizations that together form the core results of our analyses: 
+We share the results of four different prioritizations that together form the core results of our
+analyses:
 
 1. Global priorities with present land use (cbig_gpan_global2000)
 2. Global priorities with future (2040) land use (cbig_gpan_global2040)
@@ -80,7 +96,11 @@ The CSV file has the following columns:
 
 `cbig_gpan_global2000.tif`, presenting the resulting priority raster map in GeoTIFF format.
 
-The pixel values range between 0 and 1 representing the priority of the pixel in the priority ranking produced by Zonation, higher values indicating higher priority. Values equal and above 0.83 represent the best 17 % of the terrestrial land for protection, including the current protected areas. For uncertainty of these values, see the sections 3.4 and 3.7 in the Supplementary material of the article [8].
+The pixel values range between 0 and 1 representing the priority of the pixel in the priority
+ranking produced by Zonation, higher values indicating higher priority. Values equal and above 0.83
+represent the best 17 % of the terrestrial land for protection, including the current protected
+areas. For uncertainty of these values, see the sections 3.4 and 3.7 in the Supplementary material
+of the article [8].
 
 Technical details of the raster data:
 
