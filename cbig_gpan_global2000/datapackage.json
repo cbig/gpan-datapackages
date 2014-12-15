@@ -1,6 +1,6 @@
 {
   "name": "cbig_gpan_global2000",
-  "datapackage_version": "1.0-alpha",
+  "datapackage_version": "1.0.0",
   "title": "Zonation results data for global analysis for year 2000.",
   "description": "Datapackage (1 out of 4) for the publication 'Global protected area expansion is compromised by projected land-use and parochialism'. NEEDS TO BE EXTENDED.",
   "homepage": "https://avaa.tdata.fi/web/cbig/gpan",
@@ -44,13 +44,11 @@
   ],
   "resources": [
     {
-      "_comment": "NOT CORRECT RASTER METADATA!",
-      "path": "data/cbig_gpan_national2000.tif",
+      "path": "data/cbig_gpan_global2000.tif",
       "raster_metadata": {
         "driver": "GTiff/GeoTIFF",
         "files": [
-          "cbig_gpan_national2000.tif",
-          "cbig_gpan_national2000.tfw"
+          "cbig_gpan_national2000.tif"
         ],
         "size": [
           1800, 
@@ -99,7 +97,6 @@
       }
     },
     {
-      "_comment": "IN 1.0-alpha DATA IS NOT FORMATTED PROPERLY",
       "path": "data/cbig_gpan_global2000.csv",
       "dialect": {
         "delimiter": ";"
