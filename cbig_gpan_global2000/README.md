@@ -17,7 +17,7 @@ http://dx.doi.org/10.1038/nature14032
 
 You can cite to our data by citing the original paper:
 
-Pouzols, Federico Montesino
+  - Pouzols, Federico Montesino
   - Toivonen, Tuuli
   - Di Minin, Enrico
   - Kukkala, Aija
@@ -90,7 +90,7 @@ Technical details of the raster data:
     Pixel type: floating point, 32 bit
     Range: 0 to 1
     Nodata value: -1
-    Coordinate Refence System: WGS84 (EPSG:4326)
+    Coordinate Reference System: WGS84 (EPSG:4326)
 
 ******************************
 
