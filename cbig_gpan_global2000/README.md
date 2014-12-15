@@ -96,11 +96,11 @@ Technical details of the raster data:
 
 ## REFERENCES
 
-[1] http://www.gadm.org/
-[2] http://10.1111/j.1365-2486.2012.02759.x
-[3] http://www.iucnredlist.org 
-[4] http://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world
-[5] http://www.protectedplanet.net
-[6] http://cbig.it.helsinki.fi/software/zonation/
-[7] http://cbig.it.helsinki.fi/
-[8] http://www.nature.com/nature/journal/vnfv/ncurrent/full/nature14032.html#supplementary-information
+[1] http://www.gadm.org/  
+[2] http://10.1111/j.1365-2486.2012.02759.x  
+[3] http://www.iucnredlist.org  
+[4] http://www.worldwildlife.org/publications/terrestrial-ecoregions-of-the-world  
+[5] http://www.protectedplanet.net  
+[6] http://cbig.it.helsinki.fi/software/zonation/  
+[7] http://cbig.it.helsinki.fi/  
+[8] http://www.nature.com/nature/journal/vnfv/ncurrent/full/nature14032.html#supplementary-information  
