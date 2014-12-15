@@ -30,7 +30,7 @@ You can cite to our data by citing the original paper:
   - Verburg, Peter H.
   - Moilanen, Atte
  (2014) Global protected area expansion is compromised by projected land-use and parochialism
-. Nature XXX, XXX. 
+. Nature, volume 516, issue 7531 pp.383-386. 
 
 ******************************
 
