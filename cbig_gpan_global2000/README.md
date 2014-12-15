@@ -1,9 +1,9 @@
 ## DATA SET
 
-Name: cbig_gpan_global2000
-Version: 1.0.0
-Date: 2014-12-16
-Metadata authors: 
+Name: cbig_gpan_global2000  
+Version: 1.0.0  
+Date: 2014-12-16  
+Metadata authors:  
 + Tuuli Toivonen <tuuli.toivonen@helsinki.fi>
 + Joona Lehtomäki <joona.lehtomaki@helsinki.fi>
 
