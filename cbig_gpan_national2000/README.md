@@ -71,7 +71,7 @@ analyses:
 
 ## DATA DESCRIPTION
 
-This data set contains two files.
+This data set contains the following files.
  
 ### 1. Performance curves data
 
@@ -111,6 +111,17 @@ Technical details of the raster data:
     Range: 0 to 1
     Nodata value: -1
     Coordinate Reference System: WGS84 (EPSG:4326)
+
+### 3. Machine-readable metadata
+
+`datapackage.json` contains data set metadata in machine-readable JSON file. This file follows 
+Open Knowledge Foundation's data package specification [9].  
+
+### 4. Processing script
+
+`scripts/process_national2000.R` is a R [10] script file that was used to produce the aggregate 
+performance curves data contained in `data/cbig_gpan_national2000_curves.csv` form the original
+Zonation output file.  
 
 ******************************
 

@@ -71,11 +71,11 @@ analyses:
 
 ## DATA DESCRIPTION
 
-This data set contains two files.
+This data set contains the following files.
  
 ### 1. Performance curves data
 
-`cbig_gpan_global2000_curves.csv`, contains the performance curves data of the analysis.
+`data/cbig_gpan_global2000_curves.csv`, contains the performance curves data of the analysis.
 The CSV file has the following columns:
 
     1. proportion of landscape lost
@@ -94,7 +94,7 @@ The CSV file has the following columns:
 
 ### 2. Rank priority map data
 
-`cbig_gpan_global2000.tif`, presenting the resulting priority raster map in GeoTIFF format.
+`data/cbig_gpan_global2000.tif`, presenting the resulting priority raster map in GeoTIFF format.
 
 The pixel values range between 0 and 1 representing the priority of the pixel in the priority
 ranking produced by Zonation, higher values indicating higher priority. Values equal and above 0.83
@@ -112,6 +112,17 @@ Technical details of the raster data:
     Nodata value: -1
     Coordinate Reference System: WGS84 (EPSG:4326)
 
+### 3. Machine-readable metadata
+
+`datapackage.json` contains data set metadata in machine-readable JSON file. This file follows 
+Open Knowledge Foundation's data package specification [9].  
+
+### 4. Processing script
+
+`scripts/process_global2000.R` is a R [10] script file that was used to produce the aggregate 
+performance curves data contained in `data/cbig_gpan_global2000_curves.csv` form the original
+Zonation output file.  
+
 ******************************
 
 ## REFERENCES
@@ -124,3 +135,5 @@ Technical details of the raster data:
 [6] http://cbig.it.helsinki.fi/software/zonation/  
 [7] http://cbig.it.helsinki.fi/  
 [8] http://www.nature.com/nature/journal/vnfv/ncurrent/full/nature14032.html#supplementary-information  
+[9] http://data.okfn.org/doc/data-package 
+[10] http://cran.r-project.org/

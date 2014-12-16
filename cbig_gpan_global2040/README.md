@@ -71,11 +71,11 @@ analyses:
 
 ## DATA DESCRIPTION
 
-This data set contains two files.
+This data set contains the following files.
  
 ### 1. Performance curves data
 
-`cbig_gpan_global2000_curves.csv`, contains the performance curves data of the analysis.
+`cbig_gpan_global2040_curves.csv`, contains the performance curves data of the analysis.
 The CSV file has the following columns:
 
     1. proportion of landscape lost
@@ -94,7 +94,7 @@ The CSV file has the following columns:
 
 ### 2. Rank priority map data
 
-`cbig_gpan_global2000.tif`, presenting the resulting priority raster map in GeoTIFF format.
+`cbig_gpan_global2040.tif`, presenting the resulting priority raster map in GeoTIFF format.
 
 The pixel values range between 0 and 1 representing the priority of the pixel in the priority
 ranking produced by Zonation, higher values indicating higher priority. Values equal and above 0.83
@@ -111,6 +111,17 @@ Technical details of the raster data:
     Range: 0 to 1
     Nodata value: -1
     Coordinate Reference System: WGS84 (EPSG:4326)
+
+### 3. Machine-readable metadata
+
+`datapackage.json` contains data set metadata in machine-readable JSON file. This file follows 
+Open Knowledge Foundation's data package specification [9].  
+
+### 4. Processing script
+
+`scripts/process_global2040.R` is a R [10] script file that was used to produce the aggregate 
+performance curves data contained in `data/cbig_gpan_global2040_curves.csv` form the original
+Zonation output file.  
 
 ******************************
 
