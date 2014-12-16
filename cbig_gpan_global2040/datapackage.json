@@ -1,8 +1,8 @@
 {
-  "name": "cbig_gpan_global2000",
+  "name": "cbig_gpan_global2040",
   "datapackage_version": "1.0.0",
-  "title": "Zonation results data for global analysis for year 2000.",
-  "description": "Datapackage (1 out of 4) for the publication 'Global protected area expansion is compromised by projected land-use and parochialism'",
+  "title": "Zonation results data for global analysis for year 2040.",
+  "description": "Datapackage (2 out of 4) for the publication 'Global protected area expansion is compromised by projected land-use and parochialism'",
   "homepage": "https://avaa.tdata.fi/web/cbig/gpan",
   "version": "1.0",
   "keywords": [
@@ -44,7 +44,7 @@
   ],
   "resources": [
     {
-      "path": "data/cbig_gpan_global2000.tif",
+      "path": "data/cbig_gpan_global2040.tif",
       "raster_metadata": {
         "driver": "GTiff/GeoTIFF",
         "files": [
@@ -97,7 +97,7 @@
       }
     },
     {
-      "path": "data/cbig_gpan_global2000.csv",
+      "path": "data/cbig_gpan_global2040.csv",
       "dialect": {
         "delimiter": ";"
       },
